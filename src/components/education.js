@@ -33,7 +33,8 @@ const Education = () => {
               our inputs and that is where I decided to pursue this path of
               Technology.
             </h1>
-
+          </BlurFade>
+          <BlurFade delay={0.25 * 2} inView>
             <h1 className="lg:text-2xl text-base py-5 lg:w-[60vw] w-[80vw] text-center">
               I&apos;m Also a former Member of the student body back in my
               college years. Where I was Elected As Public Relations Officer
