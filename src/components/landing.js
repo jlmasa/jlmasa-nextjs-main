@@ -21,7 +21,7 @@ const Landing = () => {
       <div className="flex flex-col items-center justify-center min-h-screen">
         <h1 className="text-5xl pb-5">Hello!</h1>
         <div className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text pb-10 text-center px-10">
-          <h1 className="lg:text-8xl md:text-5xl text-4xl"><AuroraText>I am JL Masa, A</AuroraText> </h1>
+          <h1 className="lg:text-8xl md:text-5xl text-4xl">I am JL Masa, A </h1>
           <h1 className="lg:text-8xl md:text-5xl text-4xl">
            <AuroraText className="w-full"><MorphingText texts={texts} /></AuroraText>
           </h1>
