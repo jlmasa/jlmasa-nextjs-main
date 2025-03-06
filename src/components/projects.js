@@ -10,6 +10,7 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { FaJava } from "react-icons/fa";
 import { SiHeroku, SiKotlin, SiMongodb, SiReact } from "react-icons/si";
 import { Bento } from "./projecctbento";
+import { BlurFade } from "./magicui/blur-fade";
 
 const Projects = () => {
   return (
@@ -18,7 +19,10 @@ const Projects = () => {
         <strong>
           <h1 className="text-green-500 text-3xl py-5">PROJECTS</h1>
         </strong>
-        <Bento />
+        <BlurFade delay={0.25} inView>
+          <Bento />
+        </BlurFade>
+
         {/* <div className="flex flex-col items-center justify-center">
           <div className="grid lg:grid-cols-2 grid-cols-1">
             <div className="flex flex-col items-start justify-center px-20">
