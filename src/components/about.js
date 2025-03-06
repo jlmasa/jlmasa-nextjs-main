@@ -16,7 +16,7 @@ import { TextAnimate } from "./magicui/text-animate";
 import { BlurFade } from "./magicui/blur-fade";
 const About = () => {
   return (
-    <section>
+    <section className="h-screen ">
       <div className="flex flex-col items-center justify-center lg:min-h-screen">
         <div className="grid lg:grid-cols-2 grid-cols-1">
           <div className="flex flex-col items-center justify-center p-3 lg:p-20 ">
@@ -33,7 +33,7 @@ const About = () => {
               />
             </Lens>
           </div>
-          <div className="flex flex-col items-center lg:items-start justify-start px-14 lg:w-[47dvw]">
+          <div className="flex flex-col items-center lg:items-start justify-center px-14 lg:w-[47dvw]">
             <h1 className="lg:text-3xl md:text-2xl text-center">
               <TextAnimate animation="slideUp" by="word">
                 I&apos;ve been coding for almost 8 years. I&apos;m currently a

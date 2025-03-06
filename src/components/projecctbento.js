@@ -24,7 +24,7 @@ const features = [
   {
     Icon: Laptop,
     name: (
-      <div className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent text-center">
+      <div className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent ">
         <strong>
           <h1 className="text-xl py-5">
             CASA PADRID ONLINE RESERVATION SYSTEM
@@ -52,7 +52,7 @@ const features = [
   {
     Icon: Laptop,
     name: (
-      <div className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent text-center">
+      <div className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent ">
         <strong>
           <h1 className="text-xl py-5">
             CAMPUS MINISTRY SERVICES WEB APPLICATION
@@ -99,7 +99,7 @@ const features = [
   {
     Icon: MobileIcon,
     name: (
-      <div className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent text-center">
+      <div className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent ">
         <strong>
           <h1 className="text-xl py-5">
             CAMPUS MINISTRY SERVICES MOBILE APPLICATION
@@ -135,7 +135,7 @@ const features = [
   {
     Icon: Laptop,
     name: (
-      <div className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent text-center">
+      <div className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent ">
         <strong>
           <h1 className="text-xl py-5">NETFLIX CLONE</h1>
         </strong>
@@ -170,7 +170,7 @@ const features = [
 
 export function Bento() {
   return (
-    <BentoGrid className="lg:grid-rows-2 lg:h-screen px-10">
+    <BentoGrid className="lg:grid-rows-2 lg:h-screen p-10">
       {features.map((feature) => (
         <BentoCard key={feature.name} {...feature} />
       ))}

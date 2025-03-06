@@ -15,7 +15,7 @@ const Landing = () => {
         <h1 className="text-5xl pb-5">Hello!</h1>
         <div className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text pb-10 text-center px-10">
           <h1 className="lg:text-8xl md:text-5xl text-4xl">
-            <HyperText>I am JL Masa,</HyperText>
+            <HyperText>I am JL Masa</HyperText>
           </h1>
           <h1 className="lg:text-8xl md:text-5xl text-4xl">
             <AuroraText className="w-full">
