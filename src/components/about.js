@@ -65,7 +65,9 @@ const About = () => {
                   </div>
 
                   <h1 className="lg:text-2xl md:text-lg text-base">
+                  <TextAnimate animation="slideUp" by="word">
                     ReactJS / NextJS
+                    </TextAnimate>
                   </h1>
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -87,7 +89,8 @@ const About = () => {
                     
                   </div>
                   <h1 className="lg:text-2xl md:text-lg text-base">
-                    PHP / Laravel / NodeJS
+                  <TextAnimate animation="slideUp" by="word">PHP / Laravel / NodeJS</TextAnimate>
+                    
                   </h1>
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -99,7 +102,8 @@ const About = () => {
                     
                   </div>
                   <h1 className="lg:text-2xl md:text-lg text-base">
-                    TailwindCSS
+                  <TextAnimate animation="slideUp" by="word">TailwindCSS</TextAnimate>
+                    
                   </h1>
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -116,7 +120,8 @@ const About = () => {
                     
                   </div>
                   <h1 className="lg:text-2xl md:text-lg text-base">
-                    MySQL / Monggo
+                  <TextAnimate animation="slideUp" by="word">MySQL / Monggo</TextAnimate>
+                    
                   </h1>
                 </div>
               </div>

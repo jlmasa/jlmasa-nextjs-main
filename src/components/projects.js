@@ -9,15 +9,17 @@ import { FaNodeJs, FaPhp, FaReact } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 import { FaJava } from "react-icons/fa";
 import { SiHeroku, SiKotlin, SiMongodb, SiReact } from "react-icons/si";
+import { Bento } from "./projecctbento";
 
 const Projects = () => {
   return (
     <section>
       <div className="flex flex-col items-center justify-center">
         <strong>
-          <h1 className="text-green-500 text-3xl pt-5">PROJECTS</h1>
+          <h1 className="text-green-500 text-3xl py-5">PROJECTS</h1>
         </strong>
-        <div className="flex flex-col items-center justify-center">
+        <Bento />
+        {/* <div className="flex flex-col items-center justify-center">
           <div className="grid lg:grid-cols-2 grid-cols-1">
             <div className="flex flex-col items-start justify-center px-20">
               <div className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent text-center">
@@ -161,7 +163,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
