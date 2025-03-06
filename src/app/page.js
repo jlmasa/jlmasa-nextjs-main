@@ -47,10 +47,10 @@ export default function Home() {
           width={0}
         />
 
-        {/* <nav className="px-20 lg:px-11 py-5 fixed top-0 flex justify-between w-full z-50">
+        <nav className="px-20 lg:px-11 py-5 fixed top-0 flex justify-between w-full z-50">
           <h1 className="font-burtons text-xl dark:text-gray-200">John Masa</h1>
           <ThemeSwitcher />
-        </nav> */}
+        </nav>
         <div className="h-[98vh] overflow-y-scroll min-w-screen snap-y snap-mandatory overflow-x-hidden">
           <div className="snap-start relative">
             <div>
