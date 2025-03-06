@@ -9,7 +9,7 @@ import { FaNodeJs, FaPhp, FaReact } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 import { FaJava } from "react-icons/fa";
 import { SiHeroku, SiKotlin, SiMongodb, SiReact } from "react-icons/si";
-import { Bento } from "./projecctbento";
+import { Bento } from "./projectbento";
 import { BlurFade } from "./magicui/blur-fade";
 
 const Projects = () => {

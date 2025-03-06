@@ -16,7 +16,14 @@ import Image from "next/image";
 import { FaNodeJs, FaPhp, FaReact } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 import { FaJava } from "react-icons/fa";
-import { SiHeroku, SiKotlin, SiMongodb, SiReact } from "react-icons/si";
+import {
+  SiHeroku,
+  SiJquery,
+  SiKotlin,
+  SiMongodb,
+  SiMysql,
+  SiReact,
+} from "react-icons/si";
 import { Laptop } from "lucide-react";
 import { AuroraText } from "./magicui/aurora-text";
 
@@ -33,13 +40,25 @@ const features = [
       </div>
     ),
     description: (
-      <div className="flex flex-col items-start justify-center w-full pt-10">
-        <div className="grid grid-cols-2 gap-14">
+      <div className="flex flex-col items-start justify-center w-full ">
+        <div className="grid grid-cols-3 gap-14">
           <div className="flex flex-col items-center justify-center">
             <div className="flex flex-row items-center justify-center gap-5">
-              <FaPhp className="w-8 h-8 text-blue-400" />
+              <FaPhp className="w-5 h-5 text-blue-400" />
             </div>
             <h1 className="text-2xl">PHP</h1>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-row items-center justify-center gap-5">
+              <SiJquery className="w-5 h-5 text-green-400" />
+            </div>
+            <h1 className="text-2xl">Jquery</h1>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-row items-center justify-center gap-5">
+              <SiMysql className="w-5 h-5 text-green-400" />
+            </div>
+            <h1 className="text-2xl">MySQL</h1>
           </div>
         </div>
       </div>
@@ -61,29 +80,29 @@ const features = [
       </div>
     ),
     description: (
-      <div className="flex flex-col items-start justify-center w-full pt-10">
+      <div className="flex flex-col items-start justify-center w-full ">
         <div className="grid grid-cols-4 gap-14">
           <div className="flex flex-col items-center justify-center">
             <div className="flex flex-row items-center justify-center gap-5">
-              <SiReact className="w-8 h-8 text-blue-400" />
+              <SiReact className="w-5 h-5 text-blue-400" />
             </div>
             <h1 className="text-2xl">ReactJS</h1>
           </div>
           <div className="flex flex-col items-center justify-center">
             <div className="flex flex-row items-center justify-center gap-5">
-              <FaNodeJs className="w-8 h-8 text-green-400" />
+              <FaNodeJs className="w-5 h-5 text-green-400" />
             </div>
             <h1 className="text-2xl">NodeJS</h1>
           </div>
           <div className="flex flex-col items-center justify-center">
             <div className="flex flex-row items-center justify-center gap-5">
-              <SiMongodb className="w-8 h-8 text-green-400" />
+              <SiMongodb className="w-5 h-5 text-green-400" />
             </div>
-            <h1 className="text-2xl">MongoDB</h1>
+            <h1 className="text-2xl">Mongo</h1>
           </div>
           <div className="flex flex-col items-center justify-center">
             <div className="flex flex-row items-center justify-center gap-5">
-              <SiHeroku className="w-8 h-8 text-blue-400" />
+              <SiHeroku className="w-5 h-5 text-blue-400" />
             </div>
             <h1 className="text-2xl">Heroku</h1>
           </div>
@@ -108,20 +127,26 @@ const features = [
       </div>
     ),
     description: (
-      <div className="flex flex-col items-start justify-center w-full pt-10">
-        <div className="grid grid-cols-2 gap-14">
+      <div className="flex flex-col items-start justify-center w-full ">
+        <div className="grid grid-cols-3 gap-14">
           <div className="flex flex-col items-center justify-center">
             <div className="flex flex-row items-center justify-center gap-5">
-              <FaJava className="w-8 h-8 text-blue-500" />
+              <FaJava className="w-5 h-5 text-blue-500" />
             </div>
 
             <h1 className="text-2xl">Java</h1>
           </div>
           <div className="flex flex-col items-center justify-center">
             <div className="flex flex-row items-center justify-center gap-5">
-              <SiKotlin className="w-8 h-8 text-purple-400" />
+              <SiKotlin className="w-5 h-5 text-purple-400" />
             </div>
             <h1 className="text-2xl">Kotlin</h1>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-row items-center justify-center gap-5">
+              <SiMysql className="w-5 h-5 text-green-400" />
+            </div>
+            <h1 className="text-2xl">MySQL</h1>
           </div>
         </div>
       </div>
@@ -142,18 +167,18 @@ const features = [
       </div>
     ),
     description: (
-      <div className="flex flex-col items-start justify-center w-full pt-10">
+      <div className="flex flex-col items-start justify-center w-full ">
         <div className="grid grid-cols-2 gap-14">
           <div className="flex flex-col items-center justify-center">
             <div className="flex flex-row items-center justify-center gap-5">
-              <FaReact className="w-8 h-8 text-blue-500" />
+              <FaReact className="w-5 h-5 text-blue-500" />
             </div>
 
             <h1 className="text-2xl">ReactJS</h1>
           </div>
           <div className="flex flex-col items-center justify-center">
             <div className="flex flex-row items-center justify-center gap-5">
-              <IoLogoFirebase className="w-8 h-8 text-amber-400" />
+              <IoLogoFirebase className="w-5 h-5 text-amber-400" />
             </div>
             <h1 className="text-2xl">Firebase</h1>
           </div>
