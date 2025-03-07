@@ -15,6 +15,8 @@ import { FlickeringGrid } from "@/components/magicui/flickering-grid";
 
 import { SlidingNumber } from "@/components/motion-primitives/sliding-number";
 import { Clock } from "@/components/clock";
+import { ArrowUp } from "lucide-react";
+import Link from "next/link";
 
 function useParallax(value, distance) {
   return useTransform(value, [0, 1], [-distance, distance]);
@@ -31,6 +33,15 @@ export default function Home() {
   return (
     <div>
       <main className="flex flex-col items-center justify-between relative">
+        <Link href="#landing">
+          <button
+            className={`fixed bottom-0 right-0 bg-gray-700 rounded-s-full px-4 py-2 mr-6 mb-[71px] z-50 items-center text-xs flex gap-2`}
+          >
+            BACK TO TOP
+            <ArrowUp className="inline-block h-4 w-4" />
+          </button>
+        </Link>
+
         {/* <ParticlesBackground /> */}
         <FlickeringGrid
           className="absolute inset-0 -z-50 size-screen"
@@ -49,7 +60,7 @@ export default function Home() {
         </nav>
 
         <div className="h-[98vh] overflow-y-scroll min-w-screen snap-y snap-mandatory overflow-x-hidden">
-          <div className="snap-start relative">
+          <div className="snap-start relative" id="landing">
             <div>
               <Landing />
             </div>
