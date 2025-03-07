@@ -10,18 +10,11 @@ import Projects from "@/components/projects";
 import ParticlesBackground from "@/components/particlesBackground";
 import { ThemeSwitcher } from "../components/ThemeSwitcher";
 
-import {
-  motion,
-  MotionValue,
-  useScroll,
-  useSpring,
-  useTransform,
-} from "motion/react";
-import { useRef } from "react";
+import { useScroll, useSpring, useTransform } from "motion/react";
 import { FlickeringGrid } from "@/components/magicui/flickering-grid";
-import { Clock } from "@/components/clock";
 
 import { SlidingNumber } from "@/components/motion-primitives/sliding-number";
+import { Clock } from "@/components/clock";
 
 function useParallax(value, distance) {
   return useTransform(value, [0, 1], [-distance, distance]);
@@ -34,19 +27,6 @@ export default function Home() {
     damping: 30,
     restDelta: 0.001,
   });
-
-  const [hours, setHours] = useState(new Date().getHours());
-  const [minutes, setMinutes] = useState(new Date().getMinutes());
-  const [seconds, setSeconds] = useState(new Date().getSeconds());
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setHours(new Date().getHours());
-      setMinutes(new Date().getMinutes());
-      setSeconds(new Date().getSeconds());
-    }, 1000);
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <div>
@@ -64,14 +44,7 @@ export default function Home() {
         />
 
         <nav className="px-10 lg:px-11 py-5 fixed top-0 flex justify-between w-screen z-50">
-          <div className="text-xl gap-0.5 font-mono flex items-center justify-center ">
-            <SlidingNumber value={hours} padStart={true} />
-            <span className="text-zinc-500">:</span>
-            <SlidingNumber value={minutes} padStart={true} />
-            <span className="text-zinc-500">:</span>
-            <SlidingNumber value={seconds} padStart={true} />
-          </div>
-          {/* <h1 className="font-burtons text-xl dark:text-gray-200">John Masa</h1> */}
+          <Clock />
           <ThemeSwitcher />
         </nav>
 

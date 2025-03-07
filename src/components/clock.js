@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { SlidingNumber } from "@/components/motion-primitives/sliding-number";
+import { SlidingNumber } from "./motion-primitives/sliding-number";
 
 export function Clock() {
   const [hours, setHours] = useState(new Date().getHours());

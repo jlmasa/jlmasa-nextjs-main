@@ -44,21 +44,21 @@ const About = () => {
             </h1>
             <BlurFade delay={0.5} inView>
               <div className="flex flex-col items-center justify-center w-full pt-10">
-                <div className="grid grid-cols-2 gap-14">
+                <div className="grid grid-cols-2 gap-8">
                   <div className="flex flex-col items-center justify-center">
                     <div className="flex flex-row items-center justify-center gap-5">
                       <motion.div
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.8 }}
                       >
-                        <FaReact className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-11 w-11 text-blue-500" />
+                        <FaReact className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-8 w-8 text-blue-500" />
                       </motion.div>
 
                       <motion.div
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.8 }}
                       >
-                        <RiNextjsLine className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-11 w-11" />
+                        <RiNextjsLine className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-8 w-8" />
                       </motion.div>
                     </div>
 
@@ -74,19 +74,19 @@ const About = () => {
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.8 }}
                       >
-                        <FaPhp className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-11 w-11 text-violet-500" />
+                        <FaPhp className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-8 w-8 text-violet-500" />
                       </motion.div>
                       <motion.div
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.8 }}
                       >
-                        <FaLaravel className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-11 w-11 text-red-500" />
+                        <FaLaravel className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-8 w-8 text-red-500" />
                       </motion.div>
                       <motion.div
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.8 }}
                       >
-                        <RiNodejsFill className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-11 w-11 text-green-500" />
+                        <RiNodejsFill className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-8 w-8 text-green-500" />
                       </motion.div>
                     </div>
                     <h1 className="lg:text-2xl md:text-lg text-base">
@@ -101,7 +101,7 @@ const About = () => {
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.8 }}
                       >
-                        <RiTailwindCssFill className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-11 w-11  text-blue-500" />
+                        <RiTailwindCssFill className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-8 w-8  text-blue-500" />
                       </motion.div>
                     </div>
                     <h1 className="lg:text-2xl md:text-lg text-base">
@@ -116,13 +116,13 @@ const About = () => {
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.8 }}
                       >
-                        <SiMysql className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-11 w-11 text-amber-600" />
+                        <SiMysql className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-8 w-8 text-amber-600" />
                       </motion.div>
                       <motion.div
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.8 }}
                       >
-                        <TbBrandMongodb className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-11 w-11 text-green-600" />
+                        <TbBrandMongodb className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-8 w-8 text-green-600" />
                       </motion.div>
                     </div>
                     <h1 className="lg:text-2xl md:text-lg text-base">
