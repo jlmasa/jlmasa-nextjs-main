@@ -14,6 +14,7 @@ import * as motion from "motion/react-client";
 import { TypingAnimation } from "@/components/magicui/typing-animation";
 import { TextAnimate } from "./magicui/text-animate";
 import { BlurFade } from "./magicui/blur-fade";
+import { AnimatedSpan, Terminal } from "./magicui/terminal";
 const About = () => {
   return (
     <section className="h-screen ">
@@ -33,7 +34,56 @@ const About = () => {
               />
             </Lens>
           </div>
-          <div className="flex flex-col items-center lg:items-start justify-center px-14 lg:w-[47dvw]">
+          <div className="flex flex-col items-center lg:items-start justify-center px-5 lg:w-[47dvw]">
+            <TextAnimate animation="slideUp" by="word" className="pb-10">
+              I&apos;ve been coding for almost 8 years. I&apos;m currently a
+              fullstack developer who likes on making responsive websites with
+              awesome UI/UX.
+            </TextAnimate>
+            <Terminal>
+              <TypingAnimation>
+                &gt; Preferred weapons of development
+              </TypingAnimation>
+
+              <AnimatedSpan delay={1500} className="text-green-500">
+                <span>✔ NodeJS.</span>
+              </AnimatedSpan>
+
+              <AnimatedSpan delay={2000} className="text-green-500">
+                <span>✔ ReactJs.</span>
+              </AnimatedSpan>
+
+              <AnimatedSpan delay={2500} className="text-green-500">
+                <span>✔ NextJS</span>
+              </AnimatedSpan>
+
+              <AnimatedSpan delay={3000} className="text-green-500">
+                <span>✔ Express </span>
+              </AnimatedSpan>
+
+              <AnimatedSpan delay={3500} className="text-green-500">
+                <span>✔ Prisma ORM</span>
+              </AnimatedSpan>
+
+              <AnimatedSpan delay={4000} className="text-green-500">
+                <span>✔ MySQL</span>
+              </AnimatedSpan>
+
+              <AnimatedSpan delay={4500} className="text-green-500">
+                <span>✔ Android Studio</span>
+              </AnimatedSpan>
+
+              <AnimatedSpan delay={5000} className="text-green-500">
+                <span>✔ MonggoDB</span>
+              </AnimatedSpan>
+
+              <AnimatedSpan delay={5500} className="text-green-500">
+                <span>✔ Firebase.</span>
+              </AnimatedSpan>
+            </Terminal>
+          </div>
+
+          {/* <div className="flex flex-col items-center lg:items-start justify-center px-14 lg:w-[47dvw]">
             <h1 className="lg:text-3xl md:text-2xl text-center">
               <TextAnimate animation="slideUp" by="word">
                 I&apos;ve been coding for almost 8 years. I&apos;m currently a
@@ -134,7 +184,7 @@ const About = () => {
                 </div>
               </div>
             </BlurFade>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
