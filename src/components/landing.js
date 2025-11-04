@@ -26,7 +26,7 @@ const Landing = () => {
           <h1 className="lg:text-8xl md:text-5xl text-4xl md:block hidden">
             <AuroraText>Developer.</AuroraText>
           </h1>
-          <h1 className="lg:text-8xl md:text-5xl text-4xl md:block hidden">
+          <h1 className="lg:text-8xl md:text-5xl text-4xl md:hidden block">
             Developer.
           </h1>
         </div>
