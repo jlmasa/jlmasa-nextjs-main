@@ -32,7 +32,7 @@ export default function Home() {
 
   return (
     <div>
-      <main className="flex flex-col items-center justify-between relative">
+      <main className="flex flex-col items-center justify-between relative overflow-hidden">
         <Link href="#landing">
           <button
             className={`fixed bottom-0 right-0 bg-gray-700 rounded-s-full px-4 py-2 mr-6 mb-[71px] z-50 items-center text-xs flex gap-2`}

@@ -17,7 +17,7 @@ import { BlurFade } from "./magicui/blur-fade";
 import { AnimatedSpan, Terminal } from "./magicui/terminal";
 const About = () => {
   return (
-    <section className="h-screen ">
+    <section className="h-screen pt-12">
       <div className="flex flex-col items-center justify-center lg:min-h-screen">
         <div className="grid lg:grid-cols-2 grid-cols-1">
           <div className="flex flex-col items-center justify-center p-3 lg:p-20 ">
@@ -29,19 +29,19 @@ const About = () => {
             >
               <Image
                 src={face1}
-                className="rounded-xl scale-75 lg:scale-100"
+                className="rounded-xl w-60 lg:w-[700px]"
                 alt="image"
               />
             </Lens>
           </div>
-          <div className="flex flex-col items-center lg:items-start justify-center px-5 lg:w-[47dvw]">
-            <TextAnimate animation="slideUp" by="word" className="pb-10">
+          <div className="flex flex-col items-center lg:items-center justify-center px-5  w-full">
+            <TextAnimate animation="slideUp" by="word" className="pb-10 px-12">
               I&apos;ve been coding for almost 8 years. I&apos;m currently a
               fullstack developer who likes on making responsive websites with
               awesome UI/UX.
             </TextAnimate>
-            <Terminal>
-              <TypingAnimation>
+            <Terminal className="w-80 h-auto lg:w-screen">
+              <TypingAnimation className="text-md lg:text-lg">
                 &gt; Preferred weapons of development
               </TypingAnimation>
 
