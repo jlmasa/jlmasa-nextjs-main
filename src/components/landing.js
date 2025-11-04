@@ -21,12 +21,14 @@ const Landing = () => {
             <AuroraText className="w-full md:block hidden">
               <MorphingText texts={texts} />
             </AuroraText>
-            <MorphingText texts={texts} />
+            <MorphingText texts={texts} className="md:hidden block" />
           </h1>
           <h1 className="lg:text-8xl md:text-5xl text-4xl md:block hidden">
             <AuroraText>Developer.</AuroraText>
           </h1>
-          <h1 className="lg:text-8xl md:text-5xl text-4xl">Developer.</h1>
+          <h1 className="lg:text-8xl md:text-5xl text-4xl md:block hidden">
+            Developer.
+          </h1>
         </div>
         <h1 className="lg:text-4xl md:text-3xl px-16 lg:px-20 md:px-9 lg:w-screen dark:text-gray-300  text-black pb-10 text-center">
           I am located in Laguna/makati and i like to build amazing UI/UX
