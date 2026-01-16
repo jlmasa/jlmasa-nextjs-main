@@ -36,7 +36,7 @@ const Certificates1 = () => {
               <h1 className="lg:text-2xl text-xl py-5">
                 CS50 : Introduction to Computer Science
               </h1>
-              <BoxReveal BoxReveal boxColor={"#fbbf24"} duration={0.3}>
+              <BoxReveal BoxReveal boxColor={"#fbbf24/10"} duration={0.3}>
                 <h1 className="lg:text-2xl text-base lg:text-justify text-start">
                   This is CS50, Harvard University&apos;s introduction to the
                   intellectual enterprises of computer science and the art of
@@ -49,7 +49,7 @@ const Certificates1 = () => {
                   structures, and computer science more generally.
                 </h1>
               </BoxReveal>
-              <BoxReveal BoxReveal boxColor={"#fbbf24"} duration={0.3}>
+              <BoxReveal BoxReveal boxColor={"#fbbf24/10"} duration={0.3}>
                 <h1 className="lg:text-2xl text-base lg:text-justify text-start py-10">
                   Students who earn a satisfactory score on 9 problem sets
                   (i.e., programming assignments) and a final project are

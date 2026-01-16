@@ -75,7 +75,7 @@ export const Terminal = ({ children, className }) => {
   return (
     <div
       className={cn(
-        "z-0 h-full max-h-[400px] w-full max-w-xl rounded-xl border border-border bg-background",
+        "z-0 h-full max-h-[500px] w-full max-w-3xl rounded-xl border border-border bg-background",
         className
       )}
     >

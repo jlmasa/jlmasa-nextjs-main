@@ -44,7 +44,7 @@ export default function Home() {
 
         {/* <ParticlesBackground /> */}
         <FlickeringGrid
-          className="absolute inset-0 -z-50 size-screen"
+          className="absolute inset-0 -z-50 size-screen opacity-50"
           squareSize={6}
           gridGap={8}
           color="#60A5FA"

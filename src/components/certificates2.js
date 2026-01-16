@@ -14,16 +14,16 @@ const Certificates2 = () => {
         <div className="flex flex-col items-center justify-center">
           <div className="grid lg:grid-cols-2 grid-cols-1 min-h-screen py-10">
             <div className="flex flex-col items-center justify-center px-20">
-              <BoxReveal BoxReveal boxColor={"#38bdf8"} duration={0.5}>
+              <BoxReveal BoxReveal boxColor={"#38bdf8/10"} duration={0.5}>
               <h1 className="text-3xl font-bold text-sky-400">
                 PHILIPPINE CREATIVE IMAGING
               </h1>
               </BoxReveal>
-              <BoxReveal BoxReveal boxColor={"#38bdf8"} duration={0.5}>
+              <BoxReveal BoxReveal boxColor={"#38bdf8/10"} duration={0.5}>
               <h1 className="lg:text-2xl text-xl py-5">
                 Premiere Pro Essentials
               </h1></BoxReveal>
-              <BoxReveal BoxReveal boxColor={"#38bdf8"} duration={0.5}>
+              <BoxReveal BoxReveal boxColor={"#38bdf8/10"} duration={0.5}>
               <h1 className="lg:text-2xl text-base lg:text-justify text-start py-10">
                 This hands-on computer workshop will introduce you to digital
                 video imaging and editing with Adobe Premiere. Throughout this

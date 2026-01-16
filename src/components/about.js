@@ -40,7 +40,7 @@ const About = () => {
               fullstack developer who likes on making responsive websites with
               awesome UI/UX.
             </TextAnimate>
-            <Terminal className="w-80 h-auto lg:w-screen">
+            <Terminal className="h-auto w-screen px-5">
               <TypingAnimation className="text-md lg:text-lg">
                 &gt; Preferred weapons of development
               </TypingAnimation>
